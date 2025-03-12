@@ -1,4 +1,43 @@
-h1{
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+strong {
+  font-size: 32px;
+  display: block;
   text-align: center;
-  
+  margin: 20px 0;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 15px 0;
+  color: #444;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+em {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0;
 }
